@@ -3,18 +3,21 @@
   
 # Requirements
   Windows : Python 3 and higher and for the Client to run properly use pip to install Numpy
-  Linux : Python 3 and higher with Numpy installer
+  
+  Linux : Python 3 and higher
 
 # Installation
   Windows :
-      Client: Extract the Hashcat.zip file into a folder and then run the Script using pythons console.
-      Server: Just put the script into a folder and the Handshake your want to crack.
+  
+      Client: Extract the Client.zip file into a folder and then run the Script using pythons console.
+      Server: Extract the Server.zip and put the script into a folder and the Handshake your want to crack.
+      
   Linux :
-      Client: Run those commands 1) sudo apt-get install python3-pip 2) sudo pip3 install numpy then just put the client in a                 
-              folder and give them permissions. 
+  
+      Client: Run those commands 1) sudo apt-get install python3-pip 2) sudo pip3 install numpy.
 
 # Usage
-  Client: After having the IP:PORT of the server run the client using :~# python3 Client.py IP:PORT
+  Client: After having the IP:PORT of the server run the client using :~# python3 Client.py IP:PORT (you must be in the Hashcat Folder that you created after the extraction of the files)
   You will be asked for the number of Cycles once your fill your credentials.
   CYCLES : Is the number of times the client will loop. (For stable results use arounds 20-40 depending on your hardware.
    
